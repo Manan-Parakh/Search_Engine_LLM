@@ -5,7 +5,7 @@ from langchain.agents import initialize_agent, AgentType
 from langchain.callbacks import StreamlitCallbackHandler
 from langchain_groq import ChatGroq
 
-## Tools Setup
+# Tools Setup
 wiki_wrapper = WikipediaAPIWrapper(doc_content_chars_max=250, top_k_results=1)
 wikipedia = WikipediaQueryRun(api_wrapper=wiki_wrapper,
                               name= 'wikipedia',
