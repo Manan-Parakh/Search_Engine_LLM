@@ -1,0 +1,22 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore virtual environment
+.venv/
+env/
+venv/
+
+# Ignore environment and secrets
+.env
+
+# Ignore database and chroma storage
+chroma_db/
+chat_histories/
+*.db
+*.sqlite
+*.parquet
+
+# Ignore system files
+.DS_Store
