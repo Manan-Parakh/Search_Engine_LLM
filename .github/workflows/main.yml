@@ -16,5 +16,5 @@ jobs:
           lfs: true
       - name: Push to hub
         env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN_Search_Engine_HF_Space }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: git push https://mint-owl:$HF_TOKEN@huggingface.co/spaces/mint-owl/Search_Engine_LLM main
